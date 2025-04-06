@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Kevin Davis | Portfolio</title>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <h1>Kevin Davis</h1>
+      </div>
+      <ul class="navbar-center">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Games Bar -->
+  <!-- <section id="games-bar">
+    <ul class="games-list">
+      <li>Tic Tac Toe</li>
+      <li>Spaceship Adventure</li>
+      <li>Mystery Game</li>
+      <li>Coming Soon</li>
+    </ul>
+  </section> -->
+
+  <!-- Layout Wrapper -->
+  <main>
+    <!-- Main Content -->
+    <section id="about" class="floating-section">
+      <div class="about-header">
+        <h2>Kevin Davis</h2>
+        <div class="about-socials">
+          <a href="#"><img src="/images/linkedinlogo.png" alt="LinkedIn" /></a>
+          <a href="#"><img src="images/github-icon.png" alt="GitHub" /></a>
+          <a href="#"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+        </div>
+      </div>
+      <p><strong>Location:</strong> Montreal / Maryland</p>
+      <p>I'm a software developer with a passion for building clean, user-focused applications that solve real problems. After completing an immersive full-time bootcamp, I’ve been exploring creative ways to combine design and code.</p>
+    </section>
+    
+
+      <!-- Tools -->
+      <section id="tools" class="floating-section">
+        <h2>Tools I've Worked With</h2>
+        <div class="tools-grid">
+          <div class="tool">
+            <img src="images/html-icon.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="tool">
+            <img src="images/css-icon.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="tool">
+            <img src="images/js-icon.png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="tool">
+            <img src="images/react-icon.png" alt="React" />
+            <p>React</p>
+          </div>
+          <div class="tool">
+            <img src="images/node-icon.png" alt="Node.js" />
+            <p>Node.js</p>
+          </div>
+          <div class="tool">
+            <img src="images/mongo-icon.png" alt="MongoDB" />
+            <p>MongoDB</p>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="floating-section">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+          
+          <div class="project-card">
+            <h3>JobPilot</h3>
+            <p>Built with HTML, CSS, JavaScript. A job search tracker to manage applications efficiently.</p>
+          </div>
+      
+          <div class="project-card">
+            <h3>Ecommerce Site</h3>
+            <p>Created with React and Node.js. A full-stack mock store with cart and product listing.</p>
+          </div>
+      
+          <div class="project-card">
+            <h3>Link-in-Bio Tool</h3>
+            <p>Uses Express, MongoDB, and EJS. Made to provide dynamic profile links like Linktree.</p>
+          </div>
+      
+          <div class="project-card">
+            <h3>SpotMe</h3>
+            <p>Built using React, CSS, and Firebase. A simple app to find workout partners in your area.</p>
+          </div>
+      
+        </div>
+      </section>
+      
+
+      <!-- Education -->
+      <section id="education" class="floating-section">
+        <h2>Education</h2>
+      
+        <div class="edu-timeline">
+      
+          <div class="edu-entry">
+            <h3>General Assembly <span>Software Development</span></h3>
+            <p class="edu-dates">August 2024 – March 2025</p>
+            <p>Completed a full-time immersive bootcamp focused on JavaScript, React, Node.js, and full-stack web development.</p>
+          </div>
+      
+          <div class="edu-entry">
+            <h3>Bishops University <span>Psychology</span></h3>
+            <p class="edu-dates">August 2016 – March 2020</p>
+            <p>Studied human behavior and cognition with a focus on understanding user needs — a foundation for user-centered design.</p>
+          </div>
+      
+          <div class="edu-entry">
+            <h3>Dundalk Community College <span>Computer Science</span></h3>
+            <p class="edu-dates">August 2014 – June 2016</p>
+            <p>Gained foundational programming knowledge including Java, algorithms, and system design basics.</p>
+          </div>
+      
+          <div class="edu-entry">
+            <h3>Digital Harbor High School <span>Programming</span></h3>
+            <p class="edu-dates">August 2005 – June 2009</p>
+            <p>Early exposure to coding through electives and hands-on learning with small applications.</p>
+          </div>
+      
+        </div>
+      </section>
+      
+      
+
+      <!-- Contact -->
+      <section id="contact" class="floating-section">
+      <div class="contact-header">
+        <div class="spacer"></div>
+        <h2>Contact Me</h2>
+        <div class="contact-socials">
+          <a href="#"><img src="images/github-icon.png" alt="GitHub" /></a>
+          <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn" /></a>
+          <a href="#"><img src="images/instagram-icon.png" alt="Instagram" /></a>
+        </div>
+      </div>
+      
+      
+        <form class="contact-form">
+          <label for="name">Name/Company</label>
+          <input type="text" id="name" name="name" />
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+      
+          <label for="comments">Comments</label>
+          <textarea id="comments" name="comments"></textarea>
+      
+          <div class="form-button-wrapper">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+      
+      
+
+      <footer class="site-footer">
+        <p>© 2025 Kevin Davis. All rights reserved.</p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
