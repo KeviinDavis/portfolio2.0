@@ -1,3 +1,4 @@
+
 /* Responsive Nav */
 @media (max-width: 600px) {
   .navbar {
@@ -29,20 +30,33 @@
 }
 
 body {
+  background-color: #121010;
   font-family: Arial, sans-serif;
-  background-color: black;
-  color: #f0f0f0;
+  font-family: 'Inter', sans-serif !important;
+  /* background-color: black; */
+  color: #ffffff;
 }
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+p, label, li, a {
+  font-weight: 400;
+  color: #ffffff; /* optional for softer gray if full white is too harsh */
+}
+
 
 /* Header */
 header {
-  background-color: #1c1c1c;
+  background-color: #121212;
   padding: 1rem 0rem;
   position: sticky;
   top: 0;
   z-index: 1000;
   min-height: 50px;
-  border-bottom: 1px solid #333;
+  /* border-bottom: 1px solid #333; */
 }
 
 .navbar {
@@ -80,11 +94,12 @@ header {
 }
 
 .navbar-center li a:hover {
-  color: #90caf9;
+  color: rgb(23, 123, 137);;
 }
 
 /* Layout */
 main {
+  /* background-color: #0e0e0e; */
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
@@ -131,7 +146,7 @@ main {
 
 /* Floating Section Style */
 .floating-section {
-  background-color: black;
+  /* background-color: #121212; */
   padding: 2rem;
   margin: 2rem 0;
   border-radius: 12px;
@@ -186,11 +201,11 @@ main {
 
 
 #about {
-  background-color: black; /* Match the body */
   padding: 1rem;
   margin: -1.5rem 0;
-  border-radius: 0; /* No rounded corners for full-width feel */
+  border-radius: 1; /* No rounded corners for full-width feel */
   border-bottom: 1px solid #333232; /* Slightly lighter than black */
+  border: .01px solid rgb(81, 79, 79); /* 👈 Adds thin white border */
   box-shadow: none; /* Remove card look */
 }
 
@@ -337,7 +352,7 @@ main {
   left: -1.30rem;
   width: 10px;
   height: 10px;
-  background-color: white;
+  background-color: rgb(23, 123, 137);
   border-radius: 50%;
   z-index: 2;
 }
@@ -408,7 +423,7 @@ main {
 }
 
 .contact-form button {
-  background-color: #90caf9;
+  background-color: rgb(23, 123, 137);;
   color: black;
   padding: 0.75rem 1.5rem;
   border: none;
@@ -419,7 +434,7 @@ main {
 }
 
 .contact-form button:hover {
-  background-color: #64b5f6;
+  background-color: rgb(89, 202, 216);;
 }
 
 .contact-header {
