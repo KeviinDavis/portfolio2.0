@@ -471,11 +471,15 @@ main {
     gap: 1rem;
   }
 
+
+  
   .navbar-left {
     position: static;
     transform: none;
     padding-left: 0;
   }
+
+
 
   .navbar-left h1 {
     font-size: 1.5rem;
@@ -501,6 +505,8 @@ main {
     }
 }
 
+
+
 /* Footer */
 .site-footer {
   text-align: center;
@@ -510,6 +516,8 @@ main {
   border-top: 1px solid #222;
   margin-top: 3rem;
 }
+
+
 
 @media (max-width: 600px) {
   header {
